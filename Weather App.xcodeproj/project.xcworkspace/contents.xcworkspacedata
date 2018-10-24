@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:/Users/iza/Desktop/Sebastian/Weather App/Weather App/Weather App/right.png">
+   </FileRef>
+   <FileRef
+      location = "group:../Weather App/Assets.xcassets/right.png">
+   </FileRef>
+   <FileRef
       location = "self:Weather App.xcodeproj">
    </FileRef>
 </Workspace>

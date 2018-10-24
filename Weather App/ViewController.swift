@@ -10,9 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var date: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        let forecast = WeatherFetcher.fetchWeather()
+        print("Hello World!")
+//        DispatchQueue.main.sync(execute: {
+//
+//
+//            self.date.text = forecast[0]?.time
+//
+//        })
     }
 
     override func didReceiveMemoryWarning() {
